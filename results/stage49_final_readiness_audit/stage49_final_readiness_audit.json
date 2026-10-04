@@ -1,0 +1,459 @@
+{
+  "stage": "49",
+  "timestamp_utc": "2026-10-04T10:15:57.333103+00:00",
+  "status": "PASS",
+  "scientific_results_modified": false,
+  "checks": {
+    "directory_src": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/src"
+    },
+    "directory_docs": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/docs"
+    },
+    "directory_data": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/data"
+    },
+    "directory_results": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results"
+    },
+    "core_file_README.md": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/README.md"
+    },
+    "core_file_requirements.txt": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/requirements.txt"
+    },
+    "core_file_CITATION.cff": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/CITATION.cff"
+    },
+    "core_file_VERSION.json": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/VERSION.json"
+    },
+    "core_file_.gitignore": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/.gitignore"
+    },
+    "core_file_REPOSITORY_MANIFEST.txt": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/REPOSITORY_MANIFEST.txt"
+    },
+    "core_file_src_sagnd.py": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/src/sagnd.py"
+    },
+    "core_file_docs_algorithm.md": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/docs/algorithm.md"
+    },
+    "core_file_data_README.md": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/data/README.md"
+    },
+    "core_file_results_metrics_synthetic_validation.json": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/metrics/synthetic_validation.json"
+    },
+    "result_directory_stage31_independent_sagnd_validation": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage31_independent_sagnd_validation"
+    },
+    "result_directory_stage32_marker_level_validation": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage32_marker_level_validation"
+    },
+    "result_directory_stage33_clustering_biological_structure": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage33_clustering_biological_structure"
+    },
+    "result_directory_stage34_same_input_benchmark": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage34_same_input_benchmark"
+    },
+    "result_directory_stage35_magic_benchmark": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage35_magic_benchmark"
+    },
+    "result_directory_stage35D_npz_structure_audit": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage35D_npz_structure_audit"
+    },
+    "result_directory_stage36A_exact_benchmark_reconstruction": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage36A_exact_benchmark_reconstruction"
+    },
+    "result_directory_stage36B_final_audit": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage36B_final_audit"
+    },
+    "result_directory_stage37_final_publication_outputs": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs"
+    },
+    "result_directory_stage38_statistical_null_validation": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation"
+    },
+    "result_directory_stage39_specificity_discrepancy_audit": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage39_specificity_discrepancy_audit"
+    },
+    "result_directory_stage40_abs_change_provenance": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage40_abs_change_provenance"
+    },
+    "result_directory_stage41_abs_change_candidate_reproduction": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage41_abs_change_candidate_reproduction"
+    },
+    "result_directory_stage42_exact_abs_change_lineage_recovery": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage42_exact_abs_change_lineage_recovery"
+    },
+    "result_directory_stage43_exact_abs_change_formula_reproduction": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage43_exact_abs_change_formula_reproduction"
+    },
+    "result_directory_stage45_complete_method_raw_lineage": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage45_complete_method_raw_lineage"
+    },
+    "result_directory_stage46_delta_specificity_gene_order": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage46_delta_specificity_gene_order"
+    },
+    "result_directory_stage47_final_repository_freeze": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage47_final_repository_freeze"
+    },
+    "result_directory_stage48_final_audit_repair": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage48_final_audit_repair"
+    },
+    "stage36B_audit_exists": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage36B_final_audit/stage36B_final_audit.json"
+    },
+    "provenance_MAGIC_not_executed": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_historical_2960_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_forced_2960_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_manual_selection_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_threshold_changed_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_MFOS_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_CELLDEC_false": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_input_shape_verified": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "provenance_methods_verified": {
+      "status": "PASS",
+      "details": "actual=True, expected=True"
+    },
+    "RAW_NPZ_exists": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage31_independent_sagnd_validation/RAW_3695x16324.npz"
+    },
+    "SAGND_NPZ_exists": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage31_independent_sagnd_validation/SAGND_3695x16324.npz"
+    },
+    "RAW_key_X_raw": {
+      "status": "PASS",
+      "details": "['X_raw']"
+    },
+    "RAW_shape": {
+      "status": "PASS",
+      "details": "(3695, 16324)"
+    },
+    "RAW_dtype": {
+      "status": "PASS",
+      "details": "float32"
+    },
+    "RAW_finite": {
+      "status": "PASS",
+      "details": "all values finite"
+    },
+    "SAGND_key_X_sagnd": {
+      "status": "PASS",
+      "details": "['X_sagnd']"
+    },
+    "SAGND_shape": {
+      "status": "PASS",
+      "details": "(3695, 16324)"
+    },
+    "SAGND_dtype": {
+      "status": "PASS",
+      "details": "float32"
+    },
+    "SAGND_finite": {
+      "status": "PASS",
+      "details": "all values finite"
+    },
+    "master_benchmark_exists": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage36A_exact_benchmark_reconstruction/stage36A_exact_master_benchmark.csv"
+    },
+    "master_methods": {
+      "status": "PASS",
+      "details": "['SAGND', 'KNN', 'GraphSmooth-style', 'MAGIC']"
+    },
+    "frozen_mean_expression": {
+      "status": "PASS",
+      "details": "actual=0.1942810706662385, expected=0.1942810706662385"
+    },
+    "frozen_mean_abs_change": {
+      "status": "PASS",
+      "details": "actual=0.0663431109760232, expected=0.0663431109760232"
+    },
+    "frozen_median_abs_change": {
+      "status": "PASS",
+      "details": "actual=0.0143528908442872, expected=0.0143528908442872"
+    },
+    "frozen_max_abs_change": {
+      "status": "PASS",
+      "details": "actual=4.073361242232459, expected=4.073361242232459"
+    },
+    "frozen_zero_fraction": {
+      "status": "PASS",
+      "details": "actual=0.3081162779824918, expected=0.3081162779824918"
+    },
+    "frozen_specificity_change_spearman": {
+      "status": "PASS",
+      "details": "actual=-0.8456575101688742, expected=-0.8456575101688742"
+    },
+    "frozen_spearman": {
+      "status": "PASS",
+      "details": "actual=0.7589838250359833, expected=0.7589838250359833"
+    },
+    "frozen_pearson": {
+      "status": "PASS",
+      "details": "actual=0.9740576343222386, expected=0.9740576343222386"
+    },
+    "frozen_mean_abs_change_marker": {
+      "status": "PASS",
+      "details": "actual=0.2600269232405508, expected=0.2600269232405508"
+    },
+    "frozen_top10pct_jaccard": {
+      "status": "PASS",
+      "details": "actual=0.8038677930654996, expected=0.8038677930654996"
+    },
+    "frozen_cluster_count": {
+      "status": "PASS",
+      "details": "actual=14.0, expected=14.0"
+    },
+    "frozen_silhouette": {
+      "status": "PASS",
+      "details": "actual=0.4330868316758863, expected=0.4330868316758863"
+    },
+    "frozen_mean_knn_jaccard_vs_raw": {
+      "status": "PASS",
+      "details": "actual=0.4942331096881849, expected=0.4942331096881849"
+    },
+    "frozen_median_knn_jaccard_vs_raw": {
+      "status": "PASS",
+      "details": "actual=0.5, expected=0.5"
+    },
+    "frozen_runtime_seconds": {
+      "status": "PASS",
+      "details": "actual=38.96961855888367, expected=38.96961855888367"
+    },
+    "MAGIC_status": {
+      "status": "PASS",
+      "details": "NOT RUN \u2014 environment incompatibility"
+    },
+    "MAGIC_no_numeric_result": {
+      "status": "PASS",
+      "details": "21/21 numeric fields are NaN"
+    },
+    "no_forced_2960": {
+      "status": "PASS",
+      "details": "No forced/manual 2960 reconstruction"
+    },
+    "stage38_audit_exists": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation/stage38_audit.json"
+    },
+    "stage38_5000_permutations": {
+      "status": "PASS",
+      "details": "5000 permutations documented"
+    },
+    "stage38_seed_38001": {
+      "status": "PASS",
+      "details": "seed 38001 documented"
+    },
+    "historical_rho_preserved": {
+      "status": "PASS",
+      "details": "Historical value unchanged"
+    },
+    "matrix_rho_preserved": {
+      "status": "PASS",
+      "details": "Independent matrix-derived value unchanged"
+    },
+    "stage40_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage40_abs_change_provenance"
+    },
+    "stage40_nonempty": {
+      "status": "PASS",
+      "details": "5 files"
+    },
+    "stage41_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage41_abs_change_candidate_reproduction"
+    },
+    "stage41_nonempty": {
+      "status": "PASS",
+      "details": "4 files"
+    },
+    "stage42_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage42_exact_abs_change_lineage_recovery"
+    },
+    "stage42_nonempty": {
+      "status": "PASS",
+      "details": "10 files"
+    },
+    "stage43_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage43_exact_abs_change_formula_reproduction"
+    },
+    "stage43_nonempty": {
+      "status": "PASS",
+      "details": "7 files"
+    },
+    "stage45_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage45_complete_method_raw_lineage"
+    },
+    "stage45_nonempty": {
+      "status": "PASS",
+      "details": "12 files"
+    },
+    "stage46_directory": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage46_delta_specificity_gene_order"
+    },
+    "stage46_nonempty": {
+      "status": "PASS",
+      "details": "13 files"
+    },
+    "publication_Table_1_Final_Benchmark.csv": {
+      "status": "PASS",
+      "details": "Table_1_Final_Benchmark.csv"
+    },
+    "publication_Table_2_Marker_Level_Validation.csv": {
+      "status": "PASS",
+      "details": "Table_2_Marker_Level_Validation.csv"
+    },
+    "publication_Table_3_Marker_Top_Cell_Preservation.csv": {
+      "status": "PASS",
+      "details": "Table_3_Marker_Top_Cell_Preservation.csv"
+    },
+    "publication_Table_4_Marker_Method_Comparison.csv": {
+      "status": "PASS",
+      "details": "Table_4_Marker_Method_Comparison.csv"
+    },
+    "publication_Table_5_Cluster_Structure.csv": {
+      "status": "PASS",
+      "details": "Table_5_Cluster_Structure.csv"
+    },
+    "publication_Table_6_Specificity_Effect.csv": {
+      "status": "PASS",
+      "details": "Table_6_Specificity_Effect.csv"
+    },
+    "publication_Table_7_Marker_Rank_Preservation.csv": {
+      "status": "PASS",
+      "details": "Table_7_Marker_Rank_Preservation.csv"
+    },
+    "publication_Figure_1_Change_vs_Structure.png": {
+      "status": "PASS",
+      "details": "Figure_1_Change_vs_Structure.png"
+    },
+    "publication_Figure_2_Specificity_Effect.png": {
+      "status": "PASS",
+      "details": "Figure_2_Specificity_Effect.png"
+    },
+    "publication_Figure_3_Marker_Preservation.png": {
+      "status": "PASS",
+      "details": "Figure_3_Marker_Preservation.png"
+    },
+    "publication_Figure_4_Cluster_Structure.png": {
+      "status": "PASS",
+      "details": "Figure_4_Cluster_Structure.png"
+    },
+    "publication_Figure_5_Marker_Top_Cell_Jaccard.png": {
+      "status": "PASS",
+      "details": "Figure_5_Marker_Top_Cell_Jaccard.png"
+    },
+    "publication_Final_Biological_Statistical_Interpretation.txt": {
+      "status": "PASS",
+      "details": "Final_Biological_Statistical_Interpretation.txt"
+    },
+    "publication_stage37B_manifest.json": {
+      "status": "PASS",
+      "details": "stage37B_manifest.json"
+    },
+    "scientific_hash_manifest_created": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage49_final_readiness_audit/stage49_final_scientific_file_hashes.csv"
+    },
+    "repository_manifest_created": {
+      "status": "PASS",
+      "details": "/content/drive/MyDrive/SAGND/results/stage49_final_readiness_audit/stage49_repository_manifest.csv"
+    }
+  },
+  "warnings": [
+    {
+      "name": "historical_2960",
+      "details": "Historical notebook state = 2960\u00d72000; exact cell-level identity was not independently reconstructed."
+    },
+    {
+      "name": "specificity_rho_provenance",
+      "details": "The two rho values remain separately documented. The historical -0.845658 value is not claimed as independently reproduced from the frozen matrices."
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "checks_total": 106,
+    "checks_passed": 106,
+    "checks_failed": 0,
+    "warnings": 2,
+    "errors": 0,
+    "repository_file_count": 538,
+    "scientific_results_modified": false,
+    "MFOS_repository_scan_performed": false,
+    "CELLDEC_repository_scan_performed": false,
+    "MAGIC": "NOT RUN \u2014 environment incompatibility",
+    "historical_2960": "recorded; exact identity not reconstructed",
+    "historical_specificity_rho": -0.8456575101688742,
+    "matrix_specificity_rho": -0.0657148308613832,
+    "repository_ready": true
+  }
+}

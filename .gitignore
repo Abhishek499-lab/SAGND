@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Raw biological datasets
+data/raw/
+data/processed/
+
+# Large biological matrices
+*.h5ad
+*.h5
+*.mtx
+*.mtx.gz
+
+# Large compressed raw datasets
+*.tar
+*.tar.gz
+
+# Large numerical arrays
+*.npz
+
+# Generated notebook checkpoints / temporary exports
+*.pickle
+*.pkl
+
+# Stage-specific temporary reconstruction files
+results/stage29_real_reproduction/stage29D_exact_reconstruction/
+
+# Stage audit hash snapshots
+results/stage50_git_audit/
+results/stage51_git_initialization/
+
+# Large provenance exports
+data/stage14_upstream_provenance_contexts.csv

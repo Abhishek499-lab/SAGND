@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "SAGND: Specificity-Aware Graph Neighborhood Denoising"
+type: software
+authors:
+  - family-names: "Topno"
+    given-names: "Abhishek"
+version: "0.1.0-dev"
+message: "If you use this software, please cite the associated research work."

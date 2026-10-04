@@ -1,0 +1,16 @@
+{
+  "SAGND_global_mean_absolute_change": 0.0663431109760232,
+  "KNN_global_mean_absolute_change": 0.1472597717129026,
+  "GraphSmooth_style_global_mean_absolute_change": 0.0736298858564513,
+  "SAGND_change_reduction_vs_KNN_fraction": 0.5494824540040331,
+  "SAGND_change_reduction_vs_GraphSmooth_fraction": 0.09896490800806601,
+  "SAGND_marker_spearman": 0.7589838250359833,
+  "KNN_marker_spearman": 0.436885476714871,
+  "GraphSmooth_style_marker_spearman": 0.7292896567718906,
+  "SAGND_marker_spearman_advantage_vs_KNN": 0.3220983483211123,
+  "SAGND_marker_spearman_advantage_vs_GraphSmooth": 0.029694168264092657,
+  "SAGND_cell_spearman": 0.9720918229077056,
+  "KNN_cell_spearman": 0.8511469375301507,
+  "GraphSmooth_style_cell_spearman": 0.965766648971429,
+  "SAGND_high_to_low_specificity_change_ratio": 0.0016542394520298
+}

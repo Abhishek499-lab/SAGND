@@ -1,0 +1,23 @@
+{
+  "stage": "38",
+  "status": "PASS",
+  "benchmark_recalculated": false,
+  "existing_results_modified": false,
+  "magic_rerun": false,
+  "forced_2960_selection": false,
+  "MFOS_used": false,
+  "CELLDEC_used": false,
+  "n_permutations": 5000,
+  "seed": 38001,
+  "valid_genes": 16324,
+  "observed_spearman": -0.0657148308613832,
+  "empirical_two_sided_p": 0.0001999600079984003,
+  "empirical_negative_tail_p": 0.0001999600079984003,
+  "output_files": {
+    "null_distribution": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation/specificity_change_permutation_null.csv",
+    "gene_level_observed": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation/gene_level_specificity_change_observed.csv",
+    "summary": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation/stage38_permutation_summary.json",
+    "report": "/content/drive/MyDrive/SAGND/results/stage38_statistical_null_validation/stage38_statistical_report.txt"
+  },
+  "timestamp_utc": "2026-10-04T01:35:16.960824+00:00"
+}

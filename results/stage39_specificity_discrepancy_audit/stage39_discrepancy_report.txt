@@ -1,0 +1,20 @@
+SAGND — STAGE 39
+FORENSIC AUDIT OF SPECIFICITY-EFFECT DISCREPANCY
+========================================================================
+
+Stage34 reported rho: -0.845657510200
+Stage38 saved-file rho: -0.065714830861
+Direct matrix rho: -0.065714830861
+Stage31 stored abs_change rho: -0.845657510169
+Absolute difference of gene means rho: -0.050859482861
+
+Stage34 global mean_abs_change: 0.066343110976
+Direct matrix global mean_abs_change: 0.066343110979
+Global reproduction: True
+
+Specificity reproduction: True
+Stage38 change reproduction: True
+Stage31 change reproduction: False
+
+Interpretation rule:
+Stage34 rho must not be replaced by another value merely because another definition produces a different statistic. The purpose of Stage39 is to identify the exact computational definition behind the historical Stage34 value.

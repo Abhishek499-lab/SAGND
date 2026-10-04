@@ -1,0 +1,73 @@
+SAGND FINAL RESULTS INTERPRETATION
+==================================
+
+Benchmark input
+---------------
+The independently reconstructed benchmark contained 3,695 cells
+and 16,324 genes.
+
+Global expression modification
+------------------------------
+SAGND produced a mean absolute expression change of
+0.066343. The corresponding values were
+0.147260 for KNN and
+0.073630 for the GraphSmooth-style baseline.
+
+Structure preservation
+----------------------
+SAGND preserved cell-level expression structure with a Spearman
+correlation of 0.972092. Gene-level mean
+expression preservation was 0.998908.
+
+Specificity-aware behavior
+--------------------------
+The correlation between gene specificity and absolute expression
+change under SAGND was -0.845658.
+
+Low-specificity genes showed a mean absolute change of
+0.206724, whereas
+high-specificity genes showed a mean absolute change of
+0.000342.
+
+The high-to-low specificity change ratio was
+0.001654.
+
+Marker preservation
+-------------------
+Across the seven-marker panel, SAGND achieved a mean marker-level
+Spearman correlation of 0.758984 and a mean Pearson
+correlation of 0.974058.
+
+The mean top-10% marker-cell Jaccard overlap was
+0.803868.
+
+Cluster structure
+-----------------
+The Stage34 method-specific benchmark recorded
+14 clusters and a silhouette score of
+0.433087 for SAGND.
+
+Benchmark interpretation
+------------------------
+Together, these results are consistent with the intended behavior of
+SAGND: expression modification is concentrated more strongly among
+lower-specificity genes while high-specificity genes undergo much
+smaller changes, and broad cell-level and marker-level structure
+remains strongly preserved.
+
+Important benchmark limitations
+--------------------------------
+MAGIC was not executed because of environment/package incompatibility.
+Therefore no numerical MAGIC comparison is reported.
+
+The GraphSmooth-style comparator is a simplified propagation baseline
+and is not claimed to reproduce an exact historical GraphSmooth
+implementation.
+
+The historical notebook contains a 2,960-cell × 2,000-gene analysis
+state, but the exact cell-level identity of that historical subset
+could not be independently reconstructed. The Stage34 benchmark
+therefore uses the independently reconstructed 3,695 × 16,324 input
+and did not force a 2,960-cell selection.
+
+No MFOS or CELLDEC data were used.

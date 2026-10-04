@@ -1,0 +1,41 @@
+{
+  "stage": "39",
+  "purpose": "Forensic audit of discrepancy between Stage34 and Stage38 specificity-effect statistics",
+  "input_shape": [
+    3695,
+    16324
+  ],
+  "stage34_reported_rho": -0.8456575102,
+  "stage38_saved_file_rho": -0.0657148308613832,
+  "direct_matrix_rho": -0.0657148308613832,
+  "stage31_stored_abs_change_rho": -0.8456575101688742,
+  "absolute_difference_of_gene_means_rho": -0.050859482861157955,
+  "stage34_global_mean_abs_change": 0.0663431109760232,
+  "direct_matrix_global_mean_abs_change": 0.06634311097874927,
+  "global_change_reproduction": true,
+  "specificity_vector_reproduction": true,
+  "stage38_change_reproduction": true,
+  "stage31_change_reproduction": false,
+  "stage38_columns": [
+    "specificity",
+    "mean_absolute_sagnd_change"
+  ],
+  "stage34_specificity_columns": [
+    "method",
+    "specificity_change_spearman",
+    "low_specificity_mean_abs_change",
+    "high_specificity_mean_abs_change",
+    "high_to_low_change_ratio"
+  ],
+  "stage34_low_specificity_target": 0.206724,
+  "stage34_high_specificity_target": 0.000342,
+  "no_benchmark_recalculation": true,
+  "magic_rerun": false,
+  "forced_2960": false,
+  "manual_selection": false,
+  "MFOS": false,
+  "CELLDEC": false,
+  "closest_tested_tail_percent": 15.0,
+  "closest_tested_low_mean": 0.07113390029674083,
+  "closest_tested_high_mean": 0.062050192144365295
+}

@@ -1,0 +1,13 @@
+{
+    "status": "PASSED",
+    "seed": 42,
+    "cells": 300,
+    "genes": 100,
+    "k": 15,
+    "alpha": 0.5,
+    "original_mean": 0.9961333333333333,
+    "denoised_mean": 0.9865273461030459,
+    "specificity_min": 0.08480070357361469,
+    "specificity_max": 0.11893193611093544,
+    "specificity_mean": 0.10092551028821883
+}

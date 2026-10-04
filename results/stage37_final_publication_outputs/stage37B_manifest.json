@@ -1,0 +1,46 @@
+{
+  "stage": "37B",
+  "status": "PASS",
+  "purpose": "Publication-ready tables, figures and interpretation",
+  "benchmark_input": {
+    "cells": 3695,
+    "genes": 16324
+  },
+  "methods": [
+    "SAGND",
+    "KNN",
+    "GraphSmooth-style",
+    "MAGIC"
+  ],
+  "magic_status": "NOT RUN \u2014 environment incompatibility",
+  "benchmark_recalculated": false,
+  "forced_2960_selection": false,
+  "manual_cell_selection": false,
+  "MFOS_used": false,
+  "CELLDEC_used": false,
+  "outputs": {
+    "Table_1": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_1_Final_Benchmark.csv",
+    "Table_2": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_2_Marker_Level_Validation.csv",
+    "Table_3": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_3_Marker_Top_Cell_Preservation.csv",
+    "Table_4": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_4_Marker_Method_Comparison.csv",
+    "Table_5": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_5_Cluster_Structure.csv",
+    "Table_6": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_6_Specificity_Effect.csv",
+    "Table_7": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Table_7_Marker_Rank_Preservation.csv",
+    "Figure_1": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Figure_1_Change_vs_Structure.png",
+    "Figure_2": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Figure_2_Specificity_Effect.png",
+    "Figure_3": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Figure_3_Marker_Preservation.png",
+    "Figure_4": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Figure_4_Cluster_Structure.png",
+    "Figure_5": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Figure_5_Marker_Top_Cell_Jaccard.png",
+    "Derived_comparisons": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Derived_Publication_Comparisons.json",
+    "Interpretation": "/content/drive/MyDrive/SAGND/results/stage37_final_publication_outputs/Final_Biological_Statistical_Interpretation.txt"
+  },
+  "source_files": {
+    "Stage31": "/content/drive/MyDrive/SAGND/results/stage31_independent_sagnd_validation/stage31_metrics.json",
+    "Stage32": "/content/drive/MyDrive/SAGND/results/stage32_marker_level_validation/stage32_marker_metrics.csv",
+    "Stage33": "/content/drive/MyDrive/SAGND/results/stage33_clustering_biological_structure/stage33_metrics.json",
+    "Stage34": "/content/drive/MyDrive/SAGND/results/stage34_same_input_benchmark/global_expression_benchmark.csv",
+    "Stage36A": "/content/drive/MyDrive/SAGND/results/stage36A_exact_benchmark_reconstruction/stage36A_exact_master_benchmark.csv",
+    "Stage36B": "/content/drive/MyDrive/SAGND/results/stage36B_final_audit/stage36B_final_audit.json"
+  },
+  "timestamp_utc": "2026-10-04T01:32:17.622112+00:00"
+}

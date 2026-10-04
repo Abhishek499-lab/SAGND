@@ -1,0 +1,8 @@
+{
+    "project": "SAGND",
+    "name": "Specificity-Aware Graph Neighborhood Denoising",
+    "version": "0.1.0-dev",
+    "random_seed": 42,
+    "status": "initial development",
+    "implementation": "prototype"
+}
